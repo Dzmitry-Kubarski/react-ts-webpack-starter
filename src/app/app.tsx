@@ -1,7 +1,8 @@
-import { Link, Outlet, Route, Routes } from 'react-router-dom';
-import { ROUTES } from '@/shared/routes';
-import { MainPage } from '@/pages/main';
-import { TasksPage } from '@/pages/tasks';
+import { Link, Outlet, Route, Routes } from 'react-router-dom'
+
+import { MainPage } from '@/pages/main'
+import { TasksPage } from '@/pages/tasks'
+import { ROUTES } from '@/shared/routes'
 
 const App = () => {
     return (
@@ -25,7 +26,7 @@ const App = () => {
                 </Routes>
             </div>
         </>
-    );
-};
+    )
+}
 
-export default App;
+export default App

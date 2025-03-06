@@ -1,16 +1,16 @@
 export interface BuildPaths {
-    entry: string;
-    html: string;
-    output: string;
-    src: string;
+    entry: string
+    html: string
+    output: string
+    src: string
 }
 
-export type BuildMode = 'production' | 'development';
-export type BuildDevice = 'mobile' | 'desktop';
+export type BuildMode = 'production' | 'development'
+export type BuildDevice = 'mobile' | 'desktop'
 
 export interface BuildOptions {
-    port: number;
-    paths: BuildPaths;
-    mode: BuildMode;
-    device: BuildDevice;
+    port: number
+    paths: BuildPaths
+    mode: BuildMode
+    device: BuildDevice
 }

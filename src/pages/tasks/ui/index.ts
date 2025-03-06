@@ -1,1 +1,1 @@
-export * from './tasks-page';
+export * from './tasks-page'
