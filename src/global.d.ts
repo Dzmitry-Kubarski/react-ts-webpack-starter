@@ -14,3 +14,6 @@ declare module '*.svg' {
     const content: React.FunctionComponent<React.SVGAttributes<SVGElement>>;
     export default content;
 }
+
+declare const __DEVICE__: 'mobile' | 'desktop';
+declare const __ENV__: 'production' | 'development';
