@@ -1,1 +1,1 @@
-console.log('webpack typescript');
+console.log('webpack config typescript');
