@@ -1,7 +1,7 @@
 import { Link, Outlet, Route, Routes } from 'react-router-dom';
-import { ROUTES } from '../shared/routes';
-import { MainPage } from '../pages/main/ui';
-import { TasksPage } from '../pages/tasks/ui';
+import { ROUTES } from '@/shared/routes';
+import { MainPage } from '@/pages/main';
+import { TasksPage } from '@/pages/tasks';
 
 const App = () => {
     return (
